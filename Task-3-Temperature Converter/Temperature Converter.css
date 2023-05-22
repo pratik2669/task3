@@ -1,0 +1,102 @@
+* {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  main {
+    width: 70%;
+    height: 90vh;
+    align-items: center;
+    margin: auto;
+    background: rgb(0, 0, 0);
+    margin-top: 30px;
+  }
+  
+  h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .container {
+    width: 75%;
+    max-width: 1081px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 6rem;
+}
+  
+  .form {
+    text-align: center;
+    padding-left: 10%;
+    margin-top: 0;
+  }
+  
+  .temperature {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1.5rem;
+  }
+  
+  .part {
+    display: flex;
+    padding: 4px;
+    margin: 2px;
+  }
+  
+  input {
+    padding: 4px;
+    width: 12rem;
+    height: 1.8rem;
+    border-radius: 30rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-color: #33010b;
+  }
+  
+  select, option {
+    margin: auto 2rem;
+    padding: 10px;
+    border-radius: 30rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    border: 3px solid #ffffff;
+    background-color: #35994e;
+    cursor: pointer;
+  }
+  
+  span {
+    padding: 14px 7px;
+    margin-right: 1.8rem;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0206ff;
+  }
+  
+  button {
+    border: none;
+      background: #ea1538;
+      padding: 12px 30px;
+      border-radius: 30px;
+      color: white;
+      font-weight: bold;
+      font-size: 15px;
+      transition: 0.4s;
+      margin-top: 100px;
+      margin-bottom: 100px;
+  }
+  
+  button:hover {
+    background-color: rgb(1, 247, 62);
+    cursor: pointer;
+  }

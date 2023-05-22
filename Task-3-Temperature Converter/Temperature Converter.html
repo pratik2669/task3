@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet" href="Temperature Converter.css" />
+  </head>
+  <body>
+
+    <main>
+      <h1>Temperature Convertor</h1>
+      <section class="container">
+        <div class="form">
+          <div>
+          <div class="temperature">
+            <aside class="part">
+              <input type="number" name="temperature1" value="" id="temp1" required/>
+              <select name="temp-option1" id="option1">
+                <option value="Degree" selected="selected">Degree (°C)</option>
+                <option value="Fahrenheit">Fahrenheit (°F)</option>
+                <option value="Kelvin">Kelvin (K)</option>
+              </select>
+            </aside>
+          </div>
+          <div>
+            <button onclick="getResult()" type="submit">Convert</button>
+          </div>
+          <div>
+            <aside class="part">
+              <input type="number" name="temperature2" value="" id="temp2" />
+              <select name="temp-option2" id="option2">
+                <option value="Degree">Degree (°C)</option>
+                <option value="Fahrenheit" selected="selected">Fahrenheit (°F)</option>
+                <option value="Kelvin">Kelvin (K)</option>
+              </select>
+            </aside>
+          </div>
+          </div>
+          
+        </div>
+      </section>
+
+    </main>
+
+    <script src="Temperature Converter.js"></script>
+  </body>
+</html>
